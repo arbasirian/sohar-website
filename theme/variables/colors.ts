@@ -1,6 +1,7 @@
 const colors = (theme: string) =>
   ({
     primary: "#793017",
+    secondary: "#2d2421",
     white: "#FFF",
     gray1: "#313339",
     gray2: "#898989",

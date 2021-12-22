@@ -15,7 +15,7 @@ export const Box = styled.div<BoxProps>`
   font-family: ${(props) => {
     if (props.fontFamily) return props.fontFamily;
     if (props.theme.language === "fa") return "Vazir";
-    return "Roboto";
+    return "Poppins";
   }};
 
   /* WIDTH */

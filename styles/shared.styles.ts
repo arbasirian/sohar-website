@@ -3,7 +3,9 @@ import { createGlobalStyle, css } from "styled-components";
 export const BodyStyles = css`
   body {
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
+      Segoe UI, Poppins, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+      Helvetica Neue, sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -54,6 +56,8 @@ export const BodyStyles = css`
   }
 `;
 
+export const AntdSharedStyles = css``;
 export default createGlobalStyle`
     ${BodyStyles} 
+    ${AntdSharedStyles} 
 `;
