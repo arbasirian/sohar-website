@@ -48,3 +48,7 @@ a {
 .main-menu-wrapper {
   background-color: #2d2421;
 }
+
+.flex-1 {
+  flex: 1;
+}

@@ -21,21 +21,8 @@ const MainLayout = ({ children }: Props) => {
           </Container>
         </Box>
       </Header>
-      <Content
-        className="site-layout"
-        style={{ padding: "0 50px", marginTop: 64, minHeight: "100vh" }}
-      >
-        <Breadcrumb style={{ margin: "16px 0" }}>
-          <Breadcrumb.Item>Home</Breadcrumb.Item>
-          <Breadcrumb.Item>List</Breadcrumb.Item>
-          <Breadcrumb.Item>App</Breadcrumb.Item>
-        </Breadcrumb>
-        <div
-          className="site-layout-background"
-          style={{ padding: 24, minHeight: 380 }}
-        >
-          {children}
-        </div>
+      <Content className="site-layout" style={{ minHeight: "100vh" }}>
+        {children}
       </Content>
       <Footer style={{ textAlign: "center" }}>
         <MainFooter />

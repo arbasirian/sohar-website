@@ -485,6 +485,7 @@ type TextNamedProps = Partial<{
   whiteSpace: string;
   overflow: string;
   textOverflow: string;
+  opacity: number;
   ref: Ref<HTMLSpanElement>;
 }>;
 

@@ -115,6 +115,8 @@ export const Text = styled.span<TextProps>`
   }};
 
   /* WEIGHT */
+  opacity: ${(props) => (props.opacity ? props.opacity : "")};
+  /* WEIGHT */
   font-weight: ${(props) => (props.weight ? props.weight : "")};
 
   /* WIDTH */
