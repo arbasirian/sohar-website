@@ -1,8 +1,13 @@
+import { PageTitle } from "components";
 import { NextPage } from "next";
 import React from "react";
 
 const ContactPage: NextPage = () => {
-  return <div>ContactPage</div>;
+  return (
+    <>
+      <PageTitle title="Contact Us" />
+    </>
+  );
 };
 
 export default ContactPage;

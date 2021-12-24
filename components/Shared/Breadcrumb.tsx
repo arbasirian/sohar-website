@@ -28,9 +28,8 @@ const BreadcrumbComponent = () => {
     }
   }, [router]);
 
-  console.log("router :>> ", breadcrumbs);
   return (
-    <Box margin="16px 0">
+    <Box margin="16px 0 50px">
       <Breadcrumb>
         <Breadcrumb.Item>
           <Link href={"/"}>Home</Link>
