@@ -81,6 +81,12 @@ export const AntdSharedStyles = css`
   .ant-layout-footer {
     padding: 0;
   }
+  .ant-breadcrumb-link {
+    text-transform: capitalize;
+  }
+  .ant-breadcrumb a:hover {
+    color: ${({ theme }) => theme.colors.primary};
+  }
 `;
 export default createGlobalStyle`
     ${BodyStyles} 
