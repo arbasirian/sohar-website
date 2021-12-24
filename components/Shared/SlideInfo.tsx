@@ -22,6 +22,7 @@ const SlideInfo = ({ title, description, imageURL }: Props) => {
           padding="25px 0"
           alignItems="flex-start"
           className="flex-1"
+          marginRight="12%"
         >
           <Box>
             <Text
