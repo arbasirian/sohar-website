@@ -3,11 +3,7 @@ import { createGlobalStyle, css } from "styled-components";
 export const BodyStyles = css`
   body {
     margin: 0;
-    font-family: "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
-      Segoe UI, Poppins, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-      Helvetica Neue, sans-serif !important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", sans-serif !important;
   }
   .has-cursor {
     cursor: pointer;
@@ -56,7 +52,36 @@ export const BodyStyles = css`
   }
 `;
 
-export const AntdSharedStyles = css``;
+export const AntdSharedStyles = css`
+  .ant-layout {
+    font-family: "Poppins", sans-serif !important;
+  }
+  .ant-layout-header {
+    height: auto;
+    padding: 0;
+  }
+
+  .ant-menu.ant-menu-dark {
+    background-color: transparent;
+  }
+
+  .ant-menu-dark.ant-menu-horizontal > .ant-menu-item:hover,
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+    .ant-menu-item-selected,
+  .ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background-color: #999;
+  }
+
+  .ant-menu.ant-menu-dark,
+  .ant-menu-dark .ant-menu-sub,
+  .ant-menu.ant-menu-dark .ant-menu-sub {
+    background-color: #2d2421;
+  }
+
+  .ant-layout-footer {
+    padding: 0;
+  }
+`;
 export default createGlobalStyle`
     ${BodyStyles} 
     ${AntdSharedStyles} 

@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import React from "react";
 import { Helmet } from "react-helmet";
 
-import { SlideInfo } from "components";
+import { BreadcrumbComponent, Container, SlideInfo } from "components";
 
 const ProjectsPage: NextPage = () => {
   return (
@@ -13,6 +13,9 @@ const ProjectsPage: NextPage = () => {
         description="Be conscious of our responsibilities, transform words into action"
         imageURL="/hands.jpeg"
       />
+      <Container>
+        <BreadcrumbComponent />
+      </Container>
     </>
   );
 };
