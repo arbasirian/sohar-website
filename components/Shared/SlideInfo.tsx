@@ -16,6 +16,7 @@ const SlideInfo = ({ title, description, imageURL }: Props) => {
         justifyContent="space-between"
         height="420px"
         overflow="hidden"
+        flexDirectionT="column"
       >
         <Flex
           flexDirection="column"

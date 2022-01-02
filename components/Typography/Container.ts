@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 1500px;
   margin: 0 auto;
-  direction: ${(props) => (props.theme.language === 'fa' ? 'rtl' : 'ltr')};
+  direction: ${(props) => (props.theme.language === "fa" ? "rtl" : "ltr")};
 
   @media screen and (max-width: ${(props) => props.theme.breakpoints.xxl}) {
     width: 1200px;
@@ -19,5 +19,6 @@ export const Container = styled.div`
   }
   @media screen and (max-width: ${(props) => props.theme.breakpoints.xs}) {
     width: 100%;
+    padding: 0 40px;
   }
 `;

@@ -21,7 +21,11 @@ const ProjectsPage: NextPage = () => {
       <PageTitle title="Project" />
       <Box padding="30px 0 50px">
         <Container>
-          <Grid gridTemplateColumns="1fr 1fr 1fr" gridGap="30px">
+          <Grid
+            gridTemplateColumns="1fr 1fr 1fr"
+            gridTemplateColumnsT="1fr"
+            gridGap="30px"
+          >
             <ProjectItem />
             <ProjectItem />
             <ProjectItem />
