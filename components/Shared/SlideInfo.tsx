@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Box, Container, Flex, Text } from "components";
+import { Box, Flex, Text } from "components";
 import Image from "next/image";
 
 type Props = {

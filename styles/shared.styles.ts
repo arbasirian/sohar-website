@@ -60,6 +60,9 @@ export const AntdSharedStyles = css`
     height: auto;
     padding: 0;
   }
+  .ant-layout-content {
+    background-color: #fff;
+  }
 
   .ant-menu.ant-menu-dark {
     background-color: transparent;
@@ -86,6 +89,30 @@ export const AntdSharedStyles = css`
   }
   .ant-breadcrumb a:hover {
     color: ${({ theme }) => theme.colors.primary};
+  }
+
+  .ant-input {
+    margin-bottom: 20px;
+    border: 1px solid #b3b3b3;
+    padding: 16px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .ant-btn.submit-form {
+    font-size: 16px;
+    line-height: 21px;
+    display: inline-block;
+    box-sizing: border-box;
+    min-width: 130px;
+    padding: 16px 35px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    background: #a97e4b;
+    height: auto;
   }
 `;
 export default createGlobalStyle`
