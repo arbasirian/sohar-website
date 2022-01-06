@@ -1,7 +1,13 @@
 import { NextPage } from "next";
 
-import { Container, Flex, PageTitle, SlideInfo, Text } from "components";
-import { ContactForm } from "components/Contact";
+import {
+  Container,
+  Flex,
+  PageTitle,
+  SlideInfo,
+  Text,
+  ContactForm,
+} from "components";
 
 const ContactPage: NextPage = () => {
   return (

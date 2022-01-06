@@ -113,6 +113,10 @@ export const AntdSharedStyles = css`
     border-radius: 50px;
     background: #a97e4b;
     height: auto;
+    &:hover {
+      background-color: #936c42;
+      color: #fff;
+    }
   }
 `;
 export default createGlobalStyle`

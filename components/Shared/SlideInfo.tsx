@@ -1,14 +1,25 @@
 import React from "react";
+import Link from "next/link";
 
 import { Box, Flex, Text } from "components";
 import Image from "next/image";
+
+import { LinkButton } from "./shared.styles";
 
 type Props = {
   title: string;
   description: string;
   imageURL: string;
+  linkTitle?: string;
+  link?: string;
 };
-const SlideInfo = ({ title, description, imageURL }: Props) => {
+const SlideInfo = ({
+  title,
+  description,
+  imageURL,
+  linkTitle,
+  link,
+}: Props) => {
   return (
     <Box background="primary">
       <Flex
@@ -41,6 +52,11 @@ const SlideInfo = ({ title, description, imageURL }: Props) => {
               {description}
             </Text>
           </Box>
+          {linkTitle && link && (
+            <Link href={link} passHref={true}>
+              <LinkButton size="large">{linkTitle}</LinkButton>
+            </Link>
+          )}
         </Flex>
 
         <Box width="100%" className="flex-1" position="relative">
