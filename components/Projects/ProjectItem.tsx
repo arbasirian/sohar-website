@@ -3,7 +3,12 @@ import Image from "next/image";
 
 const ProjectItem = () => {
   return (
-    <Box border="1px solid" borderColor="tertiary" borderRadius="4px">
+    <Box
+      border="1px solid"
+      borderColor="tertiary"
+      borderRadius="4px"
+      background="white"
+    >
       <Box>
         <Image
           src={"/hands.jpeg"}

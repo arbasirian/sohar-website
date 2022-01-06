@@ -19,9 +19,9 @@ const MainMenu = () => {
         <Menu.Item key="/">Home</Menu.Item>
         <SubMenu key="about" title="About">
           <Menu.Item key="/about/philosophy">Philosophy</Menu.Item>
-          <Menu.Item key="/foundation/guidance-commodity-trading-sector/">
+          {/* <Menu.Item key="/foundation/guidance-commodity-trading-sector/">
             Guidance for The Commodity Trading Sector
-          </Menu.Item>
+          </Menu.Item> */}
           <Menu.Item key="/about/experience">Our Experience</Menu.Item>
         </SubMenu>
         <SubMenu key="activities" title="Activities">
@@ -33,7 +33,7 @@ const MainMenu = () => {
         <SubMenu key="foundation" title="Foundation">
           <Menu.Item key="/foundation/mission">Mission</Menu.Item>
           <Menu.Item key="/projects">Projects</Menu.Item>
-          <Menu.Item key="/submit ">Submit a Project</Menu.Item>
+          {/* <Menu.Item key="/submit ">Submit a Project</Menu.Item> */}
         </SubMenu>
         <Menu.Item key="/contact">Contact</Menu.Item>
       </Menu>
