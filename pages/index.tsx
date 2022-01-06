@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         linkTitle="See what makes us different"
       />
       <PageTitle title="Home Page" justTitle={true} />
-      <Box padding="70px 0 50px">
+      <Box padding="80px 0 50px">
         <Container>
           <Grid
             gridTemplateColumns="1fr 1fr 1fr"
