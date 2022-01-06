@@ -16,6 +16,7 @@ const colors = (theme: string) =>
     gray10: "#1c2135",
     gray11: "#5A5D68",
     gray12: "#2F3245",
+    gray13: "#f4f6f8",
     black: theme === "dark" ? "#2d2421" : "#2d2421",
     transparentBlack: "rgba(15, 18, 31, 0.7)",
     accent: "#1e76bc",
