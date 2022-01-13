@@ -13,8 +13,8 @@ const Home: NextPage = () => {
   return (
     <>
       <SlideInfo
-        title="Ad Maiora !"
-        description="Aiming for excellence, in the pursuit of success"
+        title=""
+        description="Carrying the Industry Leaders Legacy, here to Offer Unique Solutions"
         imageURL="/hands.jpeg"
         link="/contact"
         linkTitle="See what makes us different"
@@ -28,16 +28,17 @@ const Home: NextPage = () => {
             gridGap="30px"
           >
             <CategoryItem
-              title="Our Philosophy"
-              desc="Become genuine partners, working closely with our clients"
-            />
-            <CategoryItem
-              title="Our Company"
-              desc="An in-depth knowledge of international markets for petroleum"
+              title="Our Story"
+              desc="We date back to early 2000 in Schlumberger, in the heart of service"
             />
             <CategoryItem
               title="Our Activities"
-              desc="Specialist in oil trading for emerging markets"
+              desc="We specialize in the upstream market for the oil and gas industry"
+              clickRoute="/activities"
+            />
+            <CategoryItem
+              title="Our Contact"
+              desc="Here to combine experiences and offer efficient solutions"
             />
           </Grid>
         </Container>

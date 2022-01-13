@@ -1,10 +1,17 @@
 import { Box, Text } from "components";
+import { useRouter } from "next/router";
 
 type Props = {
   title: string;
   desc: string;
+  clickRoute?: string;
 };
-const CategoryItem = ({ title, desc }: Props) => {
+const CategoryItem = ({ title, desc, clickRoute }: Props) => {
+  const router = useRouter();
+  const handleChangeRoute = () => {
+    if (!clickRoute) return;
+    router.push(clickRoute);
+  };
   return (
     <Box
       padding="40px"
@@ -18,6 +25,8 @@ const CategoryItem = ({ title, desc }: Props) => {
         color="primary"
         width="100%"
         marginBottom="15px"
+        onClick={() => handleChangeRoute()}
+        className={clickRoute && "has-pointer"}
       >
         {title}
       </Text>

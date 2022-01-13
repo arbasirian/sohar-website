@@ -14,7 +14,7 @@ const ContactPage: NextPage = () => {
     <>
       <SlideInfo
         title=""
-        description="How to find us, how to reach us"
+        description="We are at your reach"
         imageURL="/hands.jpeg"
       />
       <PageTitle title="Contact Us" />
@@ -27,8 +27,10 @@ const ContactPage: NextPage = () => {
         >
           <ContactForm />
           <Text color="black">
-            Augusta Energy Group LTD Theklas Lysioti, 29 CASSANDRA CENTRE, 3rd
-            Floor 3030, Limassol Cyprus
+            Sohar Group DMCC Po Box 72485 Office 3012 – JBC 5 Jumeirah Lakes
+            towers Dubai +971 4 565 62 10 +971 5 452 31072 Sohar Group SAOG P.O.
+            Box 93 , Postal Code 328, Sohar Industrial Estate, Sohar, Sultanate
+            of Oman
           </Text>
         </Flex>
       </Container>

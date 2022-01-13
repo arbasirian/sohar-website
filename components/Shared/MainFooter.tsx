@@ -6,7 +6,7 @@ const MainFooter = () => {
     <Flex background="secondary" padding="40px 0 80px">
       <Box>
         <Text color="white">
-          © 2010-2017 Augusta Energy. All rights reserved.
+          © 2019 to 2022. Sohar Group. All rights reserved
         </Text>
       </Box>
     </Flex>

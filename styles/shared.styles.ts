@@ -5,7 +5,7 @@ export const BodyStyles = css`
     margin: 0;
     font-family: "Poppins", sans-serif !important;
   }
-  .has-cursor {
+  .has-pointer {
     cursor: pointer;
   }
   .name-icon {
